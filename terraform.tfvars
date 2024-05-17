@@ -1,0 +1,10 @@
+resource_group_name     = "qlty-dev-rg-eastus2"
+resource_group_location = "eastus2"
+vnet_name               = "qlty-dev-vnet"
+address_space           = ["10.8.0.0/16"]
+subnet_name             = "qlty-subnet-dev"
+subnet_address_prefixes = ["10.8.4.0/25"]
+storage_account_name    = "qltydevsteastus2"
+key_vault_name          = "qlty-dev-kv-eastus2"
+data_factory_name       = "qlty-dev-data-factory-eastus2"
+tenant_id               = "your-tenant-id"

@@ -1,0 +1,38 @@
+project-root/
+│
+├── modules/
+│   ├── resource-group/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── subnet/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── storage-account/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── key-vault/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   └── data-factory/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+├── environments/
+│   ├── dev/
+│   │   ├── terragrunt.hcl
+│   │   ├── resource-group/
+│   │   │   └── terragrunt.hcl
+│   │   ├── subnet/
+│   │   │   └── terragrunt.hcl
+│   │   ├── storage-account/
+│   │   │   └── terragrunt.hcl
+│   │   ├── key-vault/
+│   │   │   └── terragrunt.hcl
+│   │   └── data-factory/
+│   │       └── terragrunt.hcl
+├── terragrunt.hcl
+└── terraform.tfvars
